@@ -9,58 +9,76 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'Adversarial ML on Vector-Borne Diseases',
-      description: 'Engineered a dataset with 64 binary features containing 11 diseases to model vector-borne disease spread. Tested model robustness against adversarial attacks.',
-      tech: ['Python', 'PyTorch', 'FGSM', 'PGD', 'Boundary Attack', 'Deep Learning'],
+      title: 'Semantica - E-commerce Semantic Search',
+      description: 'E-commerce semantic search optimization with LLM-augmented reranking and measurable evaluation benchmarks. Advanced search system leveraging modern NLP techniques.',
+      tech: ['Python', 'LLM', 'Semantic Search', 'NLP', 'Reranking', 'E-commerce'],
+      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop',
+      github: 'https://github.com/abishake-07/semantica-',
+      demo: 'https://github.com/abishake-07/semantica-',
+      gradient: 'from-purple-500 to-pink-500'
+    },
+    {
+      title: 'Vector-Borne Diseases Analysis',
+      description: 'Exploring robust approaches for Vector Borne Diseases (VBD) datasets with adversarial ML techniques including FGSM, PGD, and Boundary Attack for model robustness testing.',
+      tech: ['Python', 'Jupyter', 'Adversarial ML', 'FGSM', 'PGD', 'Deep Learning'],
       image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop',
-      github: 'https://github.com/abishake-07',
-      demo: 'https://github.com/abishake-07',
+      github: 'https://github.com/abishake-07/vector-borne-diseases',
+      demo: 'https://github.com/abishake-07/vector-borne-diseases',
       gradient: 'from-red-500 to-pink-500'
     },
     {
-      title: 'Medical Image Segmentation with W-Net 3D',
-      description: 'Automated segmentation of anatomical structures (intra-cochlea, ossicular chain, facial nerve) from clinical CT scans using deep learning architecture.',
-      tech: ['PyTorch', 'W-Net 3D', 'Medical Imaging', 'NIfTI', 'Data Augmentation', 'K-Fold CV'],
-      image: 'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&h=500&fit=crop',
-      github: 'https://github.com/abishake-07',
-      demo: 'https://github.com/abishake-07',
+      title: 'Joops - AI Job Insights Dashboard',
+      description: 'Job-Operations dashboard helping users find valuable insights in the AI job market. Provides analytics and trends for AI-related positions.',
+      tech: ['Python', 'Data Analytics', 'Dashboard', 'Job Market Analysis', 'Visualization'],
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop',
+      github: 'https://github.com/abishake-07/joops',
+      demo: 'https://github.com/abishake-07/joops',
       gradient: 'from-blue-500 to-cyan-500'
     },
     {
-      title: 'Industrial Anomaly Detection System',
-      description: 'Built serverless ML pipelines for detecting anomalies in chemical plant sensor data. Achieved 40% improvement in operational efficiency.',
-      tech: ['AWS Lambda', 'Step Functions', 'Python', 'Time-Series', 'MLOps', 'CI/CD'],
-      image: 'https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=500&fit=crop',
-      github: 'https://github.com/abishake-07',
-      demo: 'https://github.com/abishake-07',
-      gradient: 'from-purple-500 to-violet-500'
-    },
-    {
-      title: 'Turbomachinery Predictive Maintenance',
-      description: 'Developed predictive models for wind turbine health monitoring using vibrational sensor data and SHAP for feature interpretability.',
-      tech: ['Python', 'Scikit-learn', 'SHAP', 'Kafka', 'Azure', 'Apache Airflow'],
-      image: 'https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=800&h=500&fit=crop',
-      github: 'https://github.com/abishake-07',
-      demo: 'https://github.com/abishake-07',
+      title: 'Lending Club Credit Value Analysis',
+      description: 'Comprehensive analysis of lending club data for credit risk assessment and value prediction. Data science project for financial analytics.',
+      tech: ['Python', 'Jupyter', 'Credit Analysis', 'Risk Assessment', 'Financial ML'],
+      image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&h=500&fit=crop',
+      github: 'https://github.com/abishake-07/lending-club-cva',
+      demo: 'https://github.com/abishake-07/lending-club-cva',
       gradient: 'from-green-500 to-emerald-500'
     },
     {
-      title: 'Labour Market Knowledge Graph (GLMO)',
-      description: 'Designed and extended a knowledge graph to provide structured labour-market data for ML analytics and research insights.',
-      tech: ['Python', 'Knowledge Graphs', 'Ontologies', 'Data Analytics', 'EDA'],
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop',
-      github: 'https://github.com/abishake-07',
-      demo: 'https://github.com/abishake-07',
+      title: 'Multilingual Chatbot',
+      description: 'Experimenting with various approaches to build chatbots with multilingual capabilities. Exploring different NLP architectures and conversation flows.',
+      tech: ['Python', 'NLP', 'Chatbot', 'Multilingual', 'Conversational AI'],
+      image: 'https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&h=500&fit=crop',
+      github: 'https://github.com/abishake-07/multilingual-chatbot',
+      demo: 'https://github.com/abishake-07/multilingual-chatbot',
       gradient: 'from-orange-500 to-red-500'
     },
     {
-      title: 'Document AI Pipeline - Mortgage Processing',
-      description: 'Built automated document processing workflows using Azure Form Recognizer for mortgage document analysis and field extraction.',
-      tech: ['Python', 'Azure Form Recognizer', 'OCR', 'Document AI', 'ML Pipeline'],
-      image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=500&fit=crop',
-      github: 'https://github.com/abishake-07',
-      demo: 'https://github.com/abishake-07',
+      title: 'GenAI Things',
+      description: 'Collection of Generative AI experiments and implementations. Exploring various GenAI techniques, prompting strategies, and model applications.',
+      tech: ['Python', 'Jupyter', 'GenAI', 'LLM', 'Prompt Engineering'],
+      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop',
+      github: 'https://github.com/abishake-07/GenAI-Things',
+      demo: 'https://github.com/abishake-07/GenAI-Things',
       gradient: 'from-indigo-500 to-purple-500'
+    },
+    {
+      title: 'Sales Data Analytics Dashboard',
+      description: 'First data analytics project using Power BI. In-depth analysis of company sales data with interactive visualizations and actionable insights.',
+      tech: ['Power BI', 'Data Analytics', 'Sales Analysis', 'Business Intelligence', 'Visualization'],
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop',
+      github: 'https://github.com/abishake-07/sales_data_analytics-',
+      demo: 'https://github.com/abishake-07/sales_data_analytics-',
+      gradient: 'from-yellow-500 to-orange-500'
+    },
+    {
+      title: 'Tudu - Smart ToDo & Expense Tracker',
+      description: 'Custom ToDo app with expense tracking capabilities. Combines task management with financial planning for personal productivity.',
+      tech: ['Python', 'Task Management', 'Expense Tracking', 'Personal Finance'],
+      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=500&fit=crop',
+      github: 'https://github.com/abishake-07/tudu',
+      demo: 'https://github.com/abishake-07/tudu',
+      gradient: 'from-pink-500 to-rose-500'
     }
   ];
 
